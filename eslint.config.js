@@ -7,6 +7,7 @@ import { fixupConfigRules } from "@eslint/compat";
 export default [
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
+    ignores: ["dist/**"],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
