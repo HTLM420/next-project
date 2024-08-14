@@ -1,28 +1,17 @@
-# React + TypeScript + Vite
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Setup
-
-The package manager that is used for this project is [Bun](https://bun.sh/).
-install the dependencies using:
-
-```bash
-bun install
-```
-
-## Development
+First, run the development server:
 
 ```bash
 bun dev
 ```
-Run the linter:
 
-```bash
-bun run lint
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
